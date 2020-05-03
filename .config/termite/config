@@ -8,9 +8,10 @@
 #dynamic_title = true
 #font = Monospace 14
 #font = Source Code Pro 14
-#font = Fira Code 14
+font = Fira Code 14
 #font = IBM Plex Mono 14
-font = DejaVu Sans Mono 16
+#font = DejaVu Sans Mono 16
+#font = NotoColorEmoji 16
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -57,10 +58,10 @@ cursor_shape = ibeam
 foreground      = #f8f8f2
 foreground_bold = #f8f8f2
 cursor          = #f8f8f2
-background      = #282a36
+#background      = #282a36
 
 # 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+background = rgba(63, 63, 63, 0.5)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f

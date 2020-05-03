@@ -2,6 +2,19 @@
 # wm independent hotkeys
 #
 
+# acer swift one backlight with light package
+XF86MonBrightnessDown
+	light -U 5
+
+XF86MonBrightnessUp
+	light -A 5
+
+# acer swift one volume control with amixer
+XF86AudioRaiseVolume
+	amixer set 'Master' 5%+
+XF86AudioLowerVolume
+	amixer set 'Master' 5%-
+
 # terminal emulator
 super + Return
 	termite	
