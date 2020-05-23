@@ -14,3 +14,4 @@ bspc config gapless_monocle      true
 bspc rule -a firefox desktop='^2'
 bspc rule -a code desktop='^3'
 bspc rule -a telegram-desktop desktop='^4'
+bspc rule -a wfica desktop='^5'
